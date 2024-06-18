@@ -2,7 +2,7 @@
 
 ## Objective
 
-Learn how to efficiently manage Active Directory Domain Services through practical tasks.
+The objective of this project is to gain proficiency in managing Active Directory Domain Services through hands-on, practical tasks. 
 
 ### Skills Learned
 - [Create Active Directory Users from CSV with PowerShell](#create-active-directory-users-from-csv-with-powershell)
