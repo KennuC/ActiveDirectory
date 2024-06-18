@@ -5,13 +5,10 @@
 Learn how to efficiently manage Active Directory Domain Services through practical tasks.
 
 ### Skills Learned
-- <a href="https://github.com/KennuC/ActiveDirectory/tree/main#create-active-directory-users-from-csv-with-powershell"/> Create Active Directory Users from CSV with PowerShell </a>
-- <a href="https://github.com/KennuC/ActiveDirectory/tree/main?tab=readme-ov-file#finding-users-on-active-directory"/> Finding users on Active Directory </a>
-- Password Reset 
-
 - [Create Active Directory Users from CSV with PowerShell](#create-active-directory-users-from-csv-with-powershell)
 - [Finding Users on Active Directory](#finding-users-on-active-directory)
 - [Password Reset](#password-reset)
+
 ### Tools Used
 - **VirtualBox**: For setting up virtual machines to create a controlled lab environment.
 - **Active Directory Domain Services**: Manage users under domain.
@@ -71,9 +68,7 @@ Learn how to efficiently manage Active Directory Domain Services through practic
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/08e8d1f4-d254-44c1-bc85-cac2c24708c9)
 *Ref 9. IT User creation verification*
 
-## Common Active Directory Tasks
-
-### Finding users on Active Directory
+## Finding users on Active Directory
 
 Under the forest, selecting `find`.
 
@@ -87,7 +82,7 @@ Find: `Users, Contacts, and Groups` In: `Entire Directory`, for example searchin
 
 *Ref 11. Find user example*
 
-### Password Reset
+## Password Reset
 
 Lets say if Ethan's password needs to be resetted, showing options and selecting reset password and then giving Ethan a temporary password for them to change password on next logon.
 
