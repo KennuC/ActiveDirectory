@@ -5,9 +5,9 @@
 Learn how to efficiently manage Active Directory Domain Services through practical tasks.
 
 ### Skills Learned
-- ![Create Active Directory Users from CSV with PowerShell](https://github.com/KennuC/ActiveDirectory/tree/main#create-active-directory-users-from-csv-with-powershell)
-- ![Finding users on Active Directory](https://github.com/KennuC/ActiveDirectory/tree/main?tab=readme-ov-file#finding-users-on-active-directory)
-- ![Password Reset](https://github.com/KennuC/ActiveDirectory/tree/main?tab=readme-ov-file#password-reset)
+- <a href="https://github.com/KennuC/ActiveDirectory/tree/main#create-active-directory-users-from-csv-with-powershell"/> Create Active Directory Users from CSV with PowerShell </a>
+- <a href="https://github.com/KennuC/ActiveDirectory/tree/main?tab=readme-ov-file#finding-users-on-active-directory"/> Finding users on Active Directory </a>
+- <a href="https://github.com/KennuC/ActiveDirectory/tree/main?tab=readme-ov-file#password-reset"/> Password Reset </a>
 
 ### Tools Used
 - **VirtualBox**: For setting up virtual machines to create a controlled lab environment.
