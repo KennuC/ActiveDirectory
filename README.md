@@ -8,12 +8,15 @@ The objective of this project is to gain proficiency in managing Active Director
 - [Create Active Directory Users from CSV with PowerShell](#create-active-directory-users-from-csv-with-powershell)
 - [Finding Users on Active Directory](#finding-users-on-active-directory)
 - [Password Reset](#password-reset)
+- [Enable Recycle Bin](#enable-recycle-bin)
+- [Using CMD to find user information](#using-cmd-to-find-user-information)
+- [Installing RSAT Tools on Windows10 Machine](#installing-rsat-tools-on-windows10-machine)
 
 ### Tools Used
 - **VirtualBox**: For setting up virtual machines to create a controlled lab environment.
 - **Active Directory Domain Services**: Manage users under domain.
-- **Excel**: To create a table of users to be exported to csv file.
-- **PowerShell**: For script execution to add users using a csv file.
+- **Excel**: To create a table of users to be exported to CSV file.
+- **PowerShell**: For script execution to add users using a CSV file.
 
 ## Create Active Directory Users from CSV with PowerShell
 
@@ -39,7 +42,7 @@ The objective of this project is to gain proficiency in managing Active Director
 
 *Ref 4. Saving as CSV*
 
-4. Importing the CSV file into Powershell to verify if the script is readable.
+4. Import the CSV file into Powershell to verify the script is readable.
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/b8670265-81c9-4d20-b9af-ee9f52d22f78)
 
@@ -51,7 +54,7 @@ The objective of this project is to gain proficiency in managing Active Director
 
 *Ref 6. Preparing Powershell script*
 
-6. Running the prepared Powershell script show that each user listed in the CSV file is created.
+6. Running the prepared Powershell script shows that each user listed in the CSV file is created.
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/dab8a37a-0724-4ab3-9839-4a0a29358a5c)
 
@@ -63,14 +66,14 @@ The objective of this project is to gain proficiency in managing Active Director
 
 *Ref 8. HR User creation verification*
 
-8. Now repeating the steps for IT.
+8. Now repeat the steps for IT.
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/08e8d1f4-d254-44c1-bc85-cac2c24708c9)
 *Ref 9. IT User creation verification*
 
 ## Finding users on Active Directory
 
-Under the forest, selecting `find`.
+Under the forest, select `find`.
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/75fcca63-9730-40e8-91fd-f22e865cb49c)
 
@@ -84,7 +87,7 @@ Find: `Users, Contacts, and Groups` In: `Entire Directory`, for example searchin
 
 ## Password Reset
 
-Lets say if Ethan's password needs to be resetted, showing options and selecting reset password and then giving Ethan a temporary password for them to change password on next logon.
+Let's say Ethan's password needs to be reset, in options, select `Reset Password` and then give Ethan a temporary password for them to change the password on the next login.
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/cc46be29-4504-461a-8786-83cd87072b64)
 
@@ -94,3 +97,32 @@ Lets say if Ethan's password needs to be resetted, showing options and selecting
 
 *Ref 13. Reset Password option (Cont.)*
 
+## Enable Recycle Bin
+
+In the Start bar, under `Windows Administrative Tools`, select `Active Directory Administrative Center`.
+
+![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/22896780-f19e-4222-b4cf-437719f50e50)
+
+*Ref 14. Windows Start bar*
+
+Under DC `kennu(local)`, enable the recycle bin.
+
+![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/d4b278f9-e6f9-42fd-a6f1-27d7fa81b73c)
+
+*Ref 15. Active Directory Administrative Center*
+
+## Using CMD to find user information
+
+In the command prompt, typing in `net user <username> /domain` will show details of the user like password details, local groups and global groups.
+
+![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/c57dd04c-e84c-4289-8804-7eb8e4d3b29c)
+
+*Ref 16. User information in CMD*
+
+## Installing RSAT Tools on Windows10 Machine
+
+In optional feature, adding an optional feature, select relevant RSAT tools to install. Installing RSAT tools on a Windows 10 machine allows administrators to manage Active Directory and other server roles remotely, providing convenience and reducing the need to directly access the server.
+
+![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/470ab3b1-61a6-4b8d-925b-1b1254205abf)
+
+*Ref 17. Adding optional features*
