@@ -94,5 +94,5 @@ Lets say if Ethan's password needs to be resetted, showing options and selecting
 
 ![image](https://github.com/KennuC/ActiveDirectory/assets/131323586/f48f2285-2d47-4e3a-81fa-de8ef73b3134)
 
-*Ref 13. Reset Password option (cont.)*
+*Ref 13. Reset Password option (Cont.)*
 
